@@ -190,3 +190,14 @@ main {
     border-radius: 25px;
     padding: 1rem;
 }
+
+/* about */
+
+.about-container {
+    display: flex;
+}
+
+.about-img img{
+    width: 50vw;
+    border-radius: 50%;
+}
