@@ -57,6 +57,10 @@ nav ul a {
     color: #556273;
 }
 
+nav ul a:hover {
+    color: #8a99a6;
+}
+
 /* main */
 
 main {
@@ -213,11 +217,63 @@ main {
 
 .about-container {
     display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 0.8rem;
 }
 
 .about-img img{
     width: 50vw;
     border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.about-container p {
+    background-color: #55627315;
+    border-radius: 25px;
+    padding: 0.8rem;
+}
+
+.about-contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.about-contact button {
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 700;
+    background-color: #556273;
+    color: #F2F2F2;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    border:none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.about-contact button:hover {
+    background-color: #f2f2f2;
+    color: #556273;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.about-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies p {
+    background-color: #55627315;
+    border-radius: 25px;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 /* ipad media query */
@@ -260,6 +316,22 @@ main {
         font-size: 1rem;
     }
     
+    .about-container {
+        flex-direction: row;
+    }
+
+    .about-img img{
+        width: 30vw;
+    }
+
+    .about-contact button {
+        font-size: 2rem;
+    }
+
+    .hobbies p {
+        font-size: 1.5rem;
+    }
+
 }
 
 /* desktop media query */
@@ -346,6 +418,29 @@ main {
     }
 
     .blogarticle p {
+        width: 40vw;
+    }
+
+    .about-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .about-img img{
+        width: 25vw;
+    }
+
+    .about-contact button {
+        font-size: 4rem;
+    }
+
+    .hobbies h2 {
+        font-size: 3.5rem;
+    }
+
+    .hobbies p {
+        font-size: 1.5rem;
         width: 40vw;
     }
 }
