@@ -61,6 +61,13 @@ nav ul a:hover {
     color: #8a99a6;
 }
 
+.active {
+    background-color: #556273;
+    color: #F2F2F2;
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
 /* main */
 
 main {
@@ -441,6 +448,6 @@ main {
 
     .hobbies p {
         font-size: 1.5rem;
-        width: 40vw;
+        width: 60vw;
     }
 }
