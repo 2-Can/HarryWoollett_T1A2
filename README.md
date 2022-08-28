@@ -9,7 +9,7 @@
 
 ## Purpose
 
-The purpose of my portfolio website is to showcase my skills as a web designer, as well as display some of my personality. It includes contact information, links to my projects, and a bit of personal flair.
+The purpose of my portfolio website is to showcase my skills as a web designer, as well as display some of my personal brand. It includes contact information, links to my projects & blogs, and a bit of flair.
 
 ---
 
@@ -65,7 +65,7 @@ The About page provides two "call to action" buttons which can be used to view m
 
 ## Target Audience
 
-The website is designed to viewed by potential employers in the tech industry, however it is easily navigatable for for any other interested parties.
+The website is designed to viewed by potential employers in the tech industry, however it is easily navigatable for any other interested parties.
 
 ---
 
